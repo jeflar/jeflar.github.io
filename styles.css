@@ -24,6 +24,7 @@ body {
 }
 
 #right {
+	border-radius: 25px;
 	float: left;
 	margin-left: 100px;
 	margin-top: 5vh;
@@ -51,7 +52,6 @@ img {
 	text-align: left;
 	padding-top: 80px;
 	padding-left: 300px;
-
 	color: #eeeeee;
 }
 
@@ -67,10 +67,20 @@ img {
 }
 
 .question {
+	padding-left: 40px;
 	padding-top: 10px;
-	padding-bottom: 10px;
+	text-align: left;
+	border-radius: 50px;
+	background-color: #00adb5;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+	min-height: 80px;
+	font-size: 25px;
+	color: #393e46;
 }
 
 .answer {
-
+	font-size: 20px;
 }
