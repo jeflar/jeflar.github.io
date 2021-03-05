@@ -1,0 +1,76 @@
+body {
+	font-size: 20px;
+	background: #222831;
+	margin: 0;
+}
+
+#left {
+	float:left ;
+	margin-top: 5vh;
+	margin-left: 0;	
+	height: 850px;
+	width: 1000px;
+	background: #393e46;
+}
+
+#pictureWrapper {
+	height: 100%;
+	width: 100%;
+	position: relative;
+	display: inline-block;
+	overflow: hidden;
+	font-size: 90px;
+	margin: 0;
+}
+
+#right {
+	float: left;
+	margin-left: 100px;
+	margin-top: 5vh;
+	margin-right: 0;	
+	height: 850px;
+	width: 700px;
+	background: #393e46;
+	text-align: center;
+}
+
+img {
+	display: block;
+	position: absolute;
+	height: 850px;
+	width: auto;
+	top: 50%;
+	left: 10%;
+	transform: translate(-50%, -50%);
+}
+
+#name {
+	height: 50%;
+	width: 100%;
+	float: left;
+	text-align: left;
+	padding-top: 80px;
+	padding-left: 300px;
+
+	color: #eeeeee;
+}
+
+#nickname {
+	background: #00adb5;
+	height: 50%;
+	width: 100%;
+	float: right;
+	text-align: right;
+	padding-right: 50px;
+	padding-top: 100px;
+	color: #393e46;
+}
+
+.question {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.answer {
+
+}
